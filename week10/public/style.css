@@ -1,0 +1,14 @@
+body {
+    text-align:center;
+}
+
+#header {
+    background-color: grey;
+    padding: 40px;
+}
+
+#lyricsContainer {
+    padding-top: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
