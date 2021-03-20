@@ -9,30 +9,33 @@
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 
-<body>
+<body id="wrap">
     <div id="header">
         <h1>Lyric Generator</h1>
     </div>
     <!-- <form action="" method="get"> -->
-        <br><br><br>
-        <span>
-            Author:
-            <input type="text" id="author" value="">
-        </span>
-        <br><br>
-        <span>
-            Song Name:
-            <input type="text" id="songName" value="">
-        </span>
-        <br><br><br>
-        <input type="submit" id="submitButton" value="Submit">
-        <input type="reset" value="Clear">
+    <br><br><br>
+    <span>
+        Author:
+        <input type="text" id="author" value="">
+    </span>
+    <br><br>
+    <span>
+        Song Name:
+        <input type="text" id="songName" value="">
+    </span>
+    <br><br><br>
+    <input type="submit" id="submitButton" value="Submit">
+    <input type="reset" value="Clear">
     <!-- </form> -->
+
     <h3 id='title'>Lyrics:</h3>
-    <div id="lyricsContainer">
-        
-    </div>
+    <div id="mySongsLink"></div>
+    <div id="loading"></div>
+    <div id="lyricsContainer"></div>
+    <br><br>
 </body>
 
 <script src="script.js"></script>
+
 </html>
