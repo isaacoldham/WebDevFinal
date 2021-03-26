@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Postal Rate Calculator</title>
+    <title>Lyric Generator</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
@@ -13,7 +13,7 @@
     <div id="header">
         <h1>Lyric Generator</h1>
     </div>
-    <!-- <form action="" method="get"> -->
+    
     <br><br><br>
     <span>
         Author:
@@ -27,10 +27,15 @@
     <br><br><br>
     <input type="submit" id="submitButton" value="Submit">
     <input type="reset" value="Clear">
-    <!-- </form> -->
+    
 
-    <h3 id='title'>Lyrics:</h3>
-    <div id="mySongsLink"></div>
+    
+    <form action="addMySong" method="GET" id="mySongsLink">
+        <input type="hidden" id="authorInput" name="authorInput" value="">
+        <input type="hidden" id="songLyricsInput" name="songLyricsInput" value="">
+        <input type="hidden" id="songTitleInput" name="songNameInput" value="">
+    </form>
+    
     <div id="loading"></div>
     <div id="lyricsContainer"></div>
     <br><br>
