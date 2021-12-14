@@ -1,10 +1,8 @@
 document.getElementById("submitButton").addEventListener("click", getLyrics);
 
-
 function getLyrics() {
     console.log('Author: ' + document.getElementById('author').value);
     document.getElementById("loading").innerHTML = "<br>Getting song lyrics...";
-
 
     var author = document.getElementById('author').value;
     var title = document.getElementById('songName').value;
@@ -40,7 +38,4 @@ function getLyrics() {
 
 function addSong() {
     console.log('Adding song to database');
-
-
-
 }
