@@ -1,13 +1,9 @@
 document.getElementById("container").innerHTML = "Your song has been added to the database.";
 
 //console.log(songParams);
-
-
 // function getLyrics() {
 //     console.log('Author: ' + document.getElementById('author').value);
 //     document.getElementById("loading").innerHTML = "<br>Getting song lyrics...";
-
-
 //     var author = document.getElementById('author').value;
 //     var title = document.getElementById('songName').value;
 //     console.log(title);
