@@ -17,7 +17,6 @@ const pool = new Pool({
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 
-
 pool.on('error', (err, client) => {
     console.error('Unexpected error on idle client', err);
     process.exit(-1);
