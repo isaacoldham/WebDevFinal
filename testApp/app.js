@@ -22,7 +22,6 @@ app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
 
-
 function handleRequest(req, res) {
     const mailtype = req.query.mailType;
     const weight = Number(req.query.weight);
@@ -166,7 +165,6 @@ function calcPostage(res, weight, mailtype) {
             res.render("sorry");
         }
     }
-    
     
     const params = { total: total, mailtype: mailtype, weight: weight };
     res.render("rate", params);
